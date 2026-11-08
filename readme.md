@@ -1,4 +1,5 @@
 # Instruction set
+
 ```asm
 mov reg1, CONSTANT ; Move CONSTANT into register 1
     ; 00 CCCCCC where C is the bits of the constant
@@ -36,4 +37,11 @@ mov reg1, [reg2] ; Read from RAM at address register 2 and store result in regis
 mov [reg2], reg1 ; Move register 1 into RAM at address register 2
     ; 11 000001
 
+```
+
+## Completed assignment: Add constant declarations (200 points)
+
+```asm
+const VALUE = 10
+mov reg1, VALUE
 ```
